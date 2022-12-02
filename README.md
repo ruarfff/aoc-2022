@@ -26,8 +26,18 @@ pytest
 
 ## Run
 
-For example, running day 1.
+```bash
+python main.py
+```
+
+e.g.
 
 ```bash
-python day-1/main.py
+❯ python main.py
+**** Day 1 ****
+66186
+196804
+**** Day 2 ****
+13221
+13131
 ```
