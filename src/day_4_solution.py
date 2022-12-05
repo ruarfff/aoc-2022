@@ -24,7 +24,7 @@ def is_contained(pair1, pair2):
     )
 
 
-def is_overlap(pair1, pair2):    
+def is_overlap(pair1, pair2):
     return pair1[0] <= pair2[1] and pair2[0] <= pair1[1]
 
 
