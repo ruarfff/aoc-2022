@@ -1,6 +1,6 @@
 def get_first_marker_position(input: str, size: int = 4):
     for i in range(len(input) - size):
-        check = set(input[i : i + size])        
+        check = set(input[i : i + size])
         if len(check) == size:
             return i + size
     return -1
